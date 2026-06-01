@@ -1,0 +1,13 @@
+[package]
+name = "lau-calm-crdt"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/SuperInstance/lau-calm-crdt"
+description = "CALM theorem and CRDT join-semilattice theory — formal convergence guarantees for distributed agent state"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+nalgebra = "0.33"
+
+[dev-dependencies]
